@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="EmailService\" />
+    <Folder Include="DbContext\" />
+    <Folder Include="Persistence\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaGestionCitas.Application\SistemaGestionCitas.Application.csproj" />
+    <ProjectReference Include="..\SistemaGestionCitas.Domain\SistemaGestionCitas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
